@@ -1,0 +1,35 @@
+body{
+  background-color: rgb(33, 34, 38);
+  margin: 0%;
+  padding: 0%;
+  color: aliceblue;
+}
+p{
+    text-align: center;
+    color: aliceblue;
+}
+
+h1{
+    background-color: rgb(100, 134, 238 );
+    text-align: center;
+    margin: 25%;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+     box-shadow: 5px 10px 5px rgb(14, 14, 14)
+   
+}
+
+.bloque{
+    border-style: none;
+    border-radius: 2px;
+}
+
+
+form{
+    text-align: center;
+}
+
+.re{
+    color: antiquewhite;
+}

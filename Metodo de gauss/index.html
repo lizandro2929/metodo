@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Metodo de Gauss</title>
+    <script src="./metodo.js"></script>
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+  </head>
+
+  <body>
+    <h1>Metodo de gauss</h1>
+    <br />
+
+    <p>
+      Ingrese los valores numericos de su ecuacion para resolverla con el Metodo
+      de Gauss
+    </p>
+
+    <br />
+    <!--Ingreso de los datos de la ecuacion-->
+    <form name="matriz">
+      <input type="text" size="3" id="n1" class="bloque" />
+      <input type="text" size="3" id="n2" class="bloque" />
+      <input type="text" size="3" id="n3" class="bloque" />
+      <input type="text" size="3" id="n4" class="bloque" />=
+      <input type="text" size="3" id="n5" class="bloque" /><br />
+      <input type="text" size="3" id="n6" class="bloque" />
+      <input type="text" size="3" id="n7" class="bloque" />
+      <input type="text" size="3" id="n8" class="bloque" />
+      <input type="text" size="3" id="n9" class="bloque" />=
+      <input type="text" size="3" id="n10" class="bloque" /><br />
+      <input type="text" size="3" id="n11" class="bloque" />
+      <input type="text" size="3" id="n12" class="bloque" />
+      <input type="text" size="3" id="n13" class="bloque" />
+      <input type="text" size="3" id="n14" class="bloque" />=
+      <input type="text" size="3" id="n15" class="bloque" /><br />
+      <input type="text" size="3" id="n16" class="bloque" />
+      <input type="text" size="3" id="n17" class="bloque" />
+      <input type="text" size="3" id="n18" class="bloque" />
+      <input type="text" size="3" id="n19" class="bloque" />=
+      <input type="text" size="3" id="n20" class="bloque" />
+
+      <br /><br />
+
+      <button type="button" onClick="datos()">resolver</button><br />
+
+      <!--Resultado de la ecuacion con el metodo de gauss-->
+
+      <div id="x" class="re"></div>
+      <br />
+
+      <div id="y" class="re"></div>
+      <br />
+
+      <div id="z" class="re"></div>
+      <br />
+
+      <div id="u" class="re"></div>
+    </form>
+  </body>
+</html>
